@@ -1,0 +1,14 @@
+{
+  "name": "todo-backend",
+  "version": "1.0.0",
+  "description": "Backend REST API for the AWS ECS To-Do microservices assessment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}

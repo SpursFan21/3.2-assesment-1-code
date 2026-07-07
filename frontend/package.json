@@ -1,0 +1,12 @@
+{
+  "name": "todo-frontend",
+  "version": "1.0.0",
+  "description": "Frontend service for the AWS ECS To-Do microservices assessment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
