@@ -6,13 +6,12 @@ phases:
       nodejs: 20
     commands:
       - echo Installing backend dependencies
-      - cd backend
-      - npm install
+      - cd backend && npm install
 
   pre_build:
     commands:
       - echo Running backend automated tests
-      - npm test
+      - cd backend && npm test
 
   build:
     commands:
